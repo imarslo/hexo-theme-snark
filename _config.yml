@@ -2,17 +2,24 @@
 description: "life is hard, make it easier"
 
 # comment system
+# valine
 valine: ## https://valine.js.org
   enable: true ## If you want to use Valine comment system, please set the value to true.
-  appid:  ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
-  appkey: ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
+  appid:  XLQJz4Rmc6CKKKnyYw3ktxlJ-gzGzoHsz ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
+  appkey: dG2jf5T5GELGnnoqJdP2q2Ax ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
   lang: en ## Language, e.g. zh-cn, en
   notify: false ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
   verify: false ## Validation code.
-  placeholder: "ヾﾉ≧∀≦)o Come on, say something..." ## Comment box placeholders.
+  placeholder: "ヾﾉ≧∀≦)o say something..." ## Comment box placeholders.
   avatar: 'identicon' ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
   pageSize: 10 ## Number of comments per page.
   guest_info: nick,mail,link ## Attributes of reviewers.
+
+# Disqus
+disqus:
+  enable: false
+  shortname: imarslo #your name
+  count: true
 
 baidu: ## https://tongji.baidu.com, https://ziyuan.baidu.com
   analytics: true
@@ -64,3 +71,16 @@ plugins: plugins
 
 # Theme version
 version: 0.0.2
+
+codeblock:
+  # Code Highlight theme
+  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
+  # See <img alt=" https" referrerPolicy="no-referrer" class="vemoji" src='//img.t.sinajs.cn/t4/appstyle/expression/ext/normal/: https:'/> //github.com/chriskempson/tomorrow-theme
+  highlight_theme: normal
+  # Add copy button on codeblock
+  copy_button:
+    enable: true
+    # Show text copy result.
+    show_result: true
+    # Available values: default | flat | mac
+    style: mac
