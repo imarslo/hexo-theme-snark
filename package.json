@@ -24,15 +24,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Litreily/hexo-theme-snark.git"
+    "url": "git+https://github.com/imarslo/hexo-theme-snark.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Litreily/hexo-theme-snark/issues"
+    "url": "https://github.com/imarslo/hexo-theme-snark/issues"
   },
-  "homepage": "https://github.com/Litreily/hexo-theme-snark#readme",
+  "homepage": "https://github.com/imarslo/hexo-theme-snark#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0"
   },
